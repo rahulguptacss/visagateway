@@ -1,0 +1,228 @@
+{
+  "common": {
+    "Topbar": {
+      "address": "123 Education Lane, New York, NY 10001",
+      "email": "info@xyz.com",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "socials": [
+        { "name": "Facebook", "href": "https://facebook.com" },
+        { "name": "Instagram", "href": "https://instagram.com" },
+        { "name": "LinkedIn", "href": "https://linkedin.com" },
+        { "name": "YouTube", "href": "https://youtube.com" }
+      ]
+    },
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_alt": "VisaGateway",
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About Us", "href": "#about" },
+        { "name": "Our Visa Services", "href": "#services" },
+        { "name": "Why Choose Us", "href": "#why" },
+        { "name": "Our Process", "href": "#process" },
+        { "name": "Testimonials", "href": "#stories" },
+        { "name": "FAQs", "href": "#faq" }
+      ],
+      "button_text": "Contact Us",
+      "button_href": "#contact",
+      "menu_open": "Open menu",
+      "menu_close": "Close menu"
+    },
+    "Footer": {
+      "logo": "/logo/white-logo.webp",
+      "logo_alt": "VisaGateway",
+      "description": "A trusted visa and immigration consultancy providing expert guidance and end-to-end support for your global journey.",
+      "email_label": "Email Info",
+      "address_label": "Our address",
+      "phone_label": "Phone Number",
+      "email": "info@xyz.com",
+      "address": "123 Education Lane, New York, NY 10001",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "socials": [
+        { "name": "Facebook", "href": "https://facebook.com" },
+        { "name": "Twitter", "href": "https://x.com" },
+        { "name": "LinkedIn", "href": "https://linkedin.com" }
+      ],
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
+    },
+    "BackToTop": { "aria_label": "Back to top", "icon": "↑" }
+  },
+  "categories": {
+    "Immigration": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "VisaGateway | Visa & Immigration",
+                "description": "Your simple path to global opportunities with trusted visa and immigration support."
+              },
+              "components": [
+                { "key": "HeroSection", "component": "Hero" },
+                { "key": "AboutSection", "component": "About" },
+                { "key": "ServicesSection", "component": "Services" },
+                { "key": "WhySection", "component": "WhyChoose" },
+                { "key": "StoriesSection", "component": "Testimonials" },
+                { "key": "FaqSection", "component": "Faq" },
+                { "key": "ContactSection", "component": "Contact" }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "id": "home",
+              "badge": "TRUSTED VISA & IMMIGRATION PARTNER",
+              "title": "Your Simple Path to",
+              "title_accent": "Global Opportunities",
+              "lead": "Expert visa and immigration support for travel, study, work, business and permanent residency across top destinations worldwide.",
+              "image": "/img/hero.webp",
+              "image_alt": "Passport and travel documents on a map",
+              "orbit": [
+                { "type": "flag", "src": "https://flagcdn.com/w80/eu.png", "alt": "European Union", "top": "2%", "left": "50%" },
+                { "type": "plane", "top": "14%", "left": "74%" },
+                { "type": "flag", "src": "https://flagcdn.com/w80/ca.png", "alt": "Canada", "top": "22%", "left": "90%" },
+                { "type": "plane", "top": "42%", "left": "98%" },
+                { "type": "flag", "src": "https://flagcdn.com/w80/gb.png", "alt": "United Kingdom", "top": "58%", "left": "92%" },
+                { "type": "plane", "top": "78%", "left": "78%" },
+                { "type": "flag", "src": "https://flagcdn.com/w80/au.png", "alt": "Australia", "top": "88%", "left": "62%" },
+                { "type": "plane", "top": "90%", "left": "40%" },
+                { "type": "flag", "src": "https://flagcdn.com/w80/de.png", "alt": "Germany", "top": "82%", "left": "18%" },
+                { "type": "plane", "top": "62%", "left": "4%" },
+                { "type": "flag", "src": "https://flagcdn.com/w80/ae.png", "alt": "United Arab Emirates", "top": "42%", "left": "2%" },
+                { "type": "plane", "top": "22%", "left": "12%" },
+                { "type": "flag", "src": "https://flagcdn.com/w80/us.png", "alt": "United States", "top": "10%", "left": "28%" }
+              ]
+            },
+            "about": {
+              "id": "about",
+              "eyebrow": "ABOUT US",
+              "image": "/img/about.webp",
+              "image_alt": "Couple holding passports at the airport",
+              "vision_title": "Our Vision",
+              "vision_text": "To be a globally trusted partner for visa and immigration solutions, helping individuals and families achieve their international goals.",
+              "title": "We Are a Trusted Visa and Immigration Agent",
+              "lead": "With over 25 years of experience, we provide reliable, transparent, and end-to-end visa and immigration services for travel, study, work, business, and permanent residency. Our expert team ensures a smooth, hassle-free, and successful application process.",
+              "stats": [
+                { "value": "25+", "label": "Years of Experience", "color": "#e11d48" },
+                { "value": "1200+", "label": "Happy Clients", "color": "#1d4ed8" }
+              ],
+              "avatars": [
+                { "src": "/img/avatar-1.webp", "alt": "Client one" },
+                { "src": "/img/avatar-2.webp", "alt": "Client two" },
+                { "src": "/img/avatar-3.webp", "alt": "Client three" },
+                { "src": "/img/avatar-4.webp", "alt": "Client four" }
+              ],
+              "rating_value": "4.9",
+              "rating_label": "Client Satisfaction",
+              "rate_image": "/img/plane.webp",
+              "rate_image_alt": "Airplane in the sky",
+              "rate_title": "Our Success Rate",
+              "bars": [
+                { "label": "Visa Approvals", "value": "95%", "width": "95%", "color": "#e11d48" },
+                { "label": "On-Time Processing", "value": "92%", "width": "92%", "color": "#2563eb" },
+                { "label": "Client Satisfaction", "value": "94%", "width": "94%", "color": "#e11d48" }
+              ]
+            },
+            "services": {
+              "id": "services",
+              "eyebrow": "OUR VISA SERVICES",
+              "title": "Comprehensive Visa Solutions for Every Need",
+              "title_highlight": "Every Need",
+              "lead": "We provide expert guidance and end-to-end support for all types of visa and immigration services, ensuring a smooth and hassle-free process for your global journey.",
+              "items": [
+                { "icon": "graduation", "title": "Student Visa", "text": "Get expert support for university admissions and student visa applications." },
+                { "icon": "luggage", "title": "Tourist Visa", "text": "Assistance for a smooth and hassle-free travel visa process to your favorite destinations." },
+                { "icon": "briefcase", "title": "Business Visa", "text": "Reliable visa support for business travel, meetings, and international expansion." },
+                { "icon": "worker", "title": "Working Visa", "text": "Complete guidance for work visas, permits, and employment-based immigration.", "featured": true }
+              ]
+            },
+            "why": {
+              "id": "why",
+              "eyebrow": "WHY CHOOSE US",
+              "title": "Why Choose VisaGateway Visa Consultancy?",
+              "title_highlight": "VisaGateway",
+              "lead": "A trusted visa and immigration consultancy dedicated to making your global journey simple, transparent, and successful.",
+              "consult_title": "Need a Consultation?",
+              "consult_text": "Call us today",
+              "phone": "+100000000000",
+              "phone_href": "tel:+100000000000",
+              "button_text": "Contact Us",
+              "button_href": "#contact",
+              "points": [
+                { "icon": "people", "title": "Accurate Guidance", "text": "Get the right advice and step-by-step support for a successful visa application." },
+                { "icon": "globe", "title": "Global Presence", "text": "Trusted by clients across major cities and countries for reliable visa solutions." }
+              ],
+              "image": "/img/why-agent.webp",
+              "image_alt": "Consultant speaking with a client",
+              "side_image": "/img/why-team.webp",
+              "side_image_alt": "Team reviewing visa documents",
+              "badge_title": "Trusted Visa Experts",
+              "badge_text": "Professional, reliable, and end-to-end visa support for all your global needs."
+            },
+            "testimonials": {
+              "id": "stories",
+              "eyebrow": "CLIENT TESTIMONIALS",
+              "title": "What Our Clients Say About Us",
+              "title_highlight": "About Us",
+              "lead": "Hear from our happy clients who have successfully achieved their visa and immigration goals with our expert guidance and support.",
+              "prev_label": "Previous",
+              "next_label": "Next",
+              "slide_label": "Slide",
+              "items": [
+                { "quote": "We've seen measurable improvements in productivity and couldn't be happier with the results. The visa process was smooth and well-guided.", "name": "Ronald Richards", "role": "Finance Manager", "image": "/img/avatar-1.webp", "stars": 5 },
+                { "quote": "Their maintenance services are thorough, and their products are built to last. The team was very supportive throughout my visa application.", "name": "Brooklyn Simmons", "role": "Special Adviser", "image": "/img/avatar-2.webp", "stars": 5 },
+                { "quote": "Excellent service and professional support. They handled my documentation perfectly and kept me updated at every step. Highly recommended!", "name": "Albert Flores", "role": "Operations Head", "image": "/img/avatar-4.webp", "stars": 5 },
+                { "quote": "My student file was checked line by line. I knew each document before the embassy date, and the decision came without extra rounds.", "name": "Donald Smith", "role": "Student Visa", "image": "/img/avatar-3.webp", "stars": 5 },
+                { "quote": "The work visa papers were packed on time. The consultant stayed available until the approval letter arrived.", "name": "Wesley Simmons", "role": "Work Visa", "image": "/img/avatar-1.webp", "stars": 5 },
+                { "quote": "A short-notice business visit was ready the same week, with the invitation and itinerary checked before submission.", "name": "Cameron Williamson", "role": "Business Visa", "image": "/img/avatar-2.webp", "stars": 5 }
+              ]
+            },
+            "faq": {
+              "id": "faq",
+              "eyebrow": "FAQ",
+              "title": "Frequently",
+              "title_rest": "Asked",
+              "title_highlight": "Questions",
+              "lead": "Find answers to the most common queries about our visa and immigration services.",
+              "image": "/img/faq.webp",
+              "image_alt": "Passport, globe and travel documents",
+              "items": [
+                { "question": "How do I change my visa appointment?", "answer": "Share your current date and we will request the next open slot with the centre and update you the same day." },
+                { "question": "How long does a student visa take?", "answer": "Most study files are ready in one to two weeks. Embassy time after submission depends on the country." },
+                { "question": "Can you help if I was refused before?", "answer": "Yes. We review the refusal letter, fix the weak points, and prepare a fresh file before you apply again." },
+                { "question": "Do you support family applications?", "answer": "We prepare spouse, child and parent files together so the documents stay consistent." },
+                { "question": "Which documents do I need to start?", "answer": "A passport scan, photo, and the purpose of travel are enough to begin. We send the full checklist after the first call." },
+                { "question": "How do I track my application?", "answer": "You get updates at each stage, from document check to the embassy decision, on email and phone." }
+              ]
+            },
+            "contact": {
+              "id": "contact",
+              "eyebrow": "CONTACT US",
+              "title": "Feel Free to Enquire About Any Questions You Got",
+              "title_highlight": "Any Questions You Got",
+              "lead": "Our team is here to assist with any inquiries you have. We're ready to provide quick and helpful responses to make your experience seamless.",
+              "address_title": "Our Address",
+              "phone_title": "Call Us",
+              "email_title": "Email Us",
+              "address": "123 Education Lane, New York, NY 10001",
+              "phone": "+100000000000",
+              "phone_href": "tel:+100000000000",
+              "email": "info@xyz.com",
+              "form_title": "Get Free Assessment Today!",
+              "name_placeholder": "Your Name",
+              "email_placeholder": "Your Email",
+              "phone_placeholder": "Your Phone",
+              "message_placeholder": "Write Message...",
+              "button_text": "Send Message",
+              "success_message": "Thank you. Your assessment request has been received."
+            }
+          }
+        }
+      }
+    }
+  }
+}
